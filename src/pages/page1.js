@@ -1,10 +1,16 @@
 import React from "react";
+
+// Import Redirector function
 import history from "../functions/Redirector";
 
+
+// Configure the function and set the location it will redirect to
 function Page2({ goToPage2 }) {
   goToPage2 = () => {
     history.push("/page2");
   };
+
+  // The function can either be used on an onsubmit or onclick
 
   return (
     <div className="App">

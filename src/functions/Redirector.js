@@ -1,5 +1,6 @@
 import { createBrowserHistory } from "history";
 
+// Import history and set it to redirect and refresh the page upon location change
 const history = createBrowserHistory({
   forceRefresh: true
 });
